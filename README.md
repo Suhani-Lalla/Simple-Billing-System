@@ -22,13 +22,13 @@ This is a simple billing system implemented in Java. It is designed to help smal
    
 3. Compile java files:
    ```bash
-   javac *.java
+   javac com/company/billing/*.java com/company/gui/*.java com/company/products/*.java
 
 ## Usage
 
 1. Run the application:
    ```bash
-   java Main
+   java -cp ".;lib/mysql-connector-j-8.3.0.jar" com.company.gui.BillingSystemGUI
 
 2. Follow the on-screen instructions to input billing information, manage customers, products, and generate invoices.
 
