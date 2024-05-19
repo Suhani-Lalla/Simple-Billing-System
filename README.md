@@ -1,6 +1,6 @@
 # Simple Billing System
 
-This is a simple billing system implemented in Python. It is designed to help small businesses or individuals manage their billing processes efficiently.
+This is a simple billing system implemented in Java. It is designed to help small businesses or individuals manage their billing processes efficiently.
 
 ## Features
 
@@ -20,15 +20,15 @@ This is a simple billing system implemented in Python. It is designed to help sm
    ```bash
     cd Simple-Billing-System
    
-3. Install dependencies:
+3. Compile java files:
    ```bash
-   pip install -r requirements.txt
+   javac *.java
 
 ## Usage
 
 1. Run the application:
    ```bash
-   python main.py
+   java Main
 
 2. Follow the on-screen instructions to input billing information, manage customers, products, and generate invoices.
 
